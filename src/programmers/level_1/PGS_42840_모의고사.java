@@ -38,7 +38,7 @@ public class PGS_42840_모의고사 {
             if (members.length == x) {
                 x = 0;
             }
-            if(members[x] == answers[x]) {
+            if(members[x] == answers[i]) {
                 score++;
             }
 
