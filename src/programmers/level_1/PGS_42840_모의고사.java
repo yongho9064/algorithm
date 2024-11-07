@@ -3,6 +3,13 @@ package programmers.level_1;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+ * 정답자 비교: 수포자들의 답안 패턴이 반복될 때
+ * 나머지 연산(`%`)을 사용하여 인덱스를 초기화하는 방법도 있었습니다.
+ * 예를 들어, 첫 번째 수포자의 답안 패턴 길이가 5일 때,
+ * `m1[i % m1.length]`와 같이 접근하면 인덱스를 0으로 초기화하지 않아도
+ * 반복 패턴을 구현할 수 있습니다.
+ */
 public class PGS_42840_모의고사 {
 
     public static void main(String[] args) {
